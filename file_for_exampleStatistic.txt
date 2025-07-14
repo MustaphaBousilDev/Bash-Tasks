@@ -1,0 +1,2 @@
+Hello My Friend, 
+This file is for problem solving that extracting information about size and content of this file
