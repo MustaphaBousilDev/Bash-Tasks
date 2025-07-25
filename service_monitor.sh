@@ -14,7 +14,7 @@ for service in "${services[@]}"; do
     echo "❌ $service is NOT running"
     echo "   To start: sudo systemctl start $service"
   fi 
-  echo ""
+  echo "" 
 done
 
 # Check overall system load
