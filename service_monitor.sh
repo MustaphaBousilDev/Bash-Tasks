@@ -12,7 +12,7 @@ for service in "${services[@]}"; do
     echo "  Status: $status"
   else 
     echo "❌ $service is NOT running"
-    echo "   To start: sudo systemctl start $service"
+    echo "   To start: sudo systemctl start $service "
   fi 
   echo "" 
 done
