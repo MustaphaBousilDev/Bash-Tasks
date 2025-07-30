@@ -2,7 +2,7 @@
 
 services=("sshd","NetworkManager", "systemd-resolved","cron")
 echo "=== SERVICE MONITORING ==="
-echo "Checking critical services..."
+echo "Checking critical services....."
 echo ""
 
 for service in "${services[@]}"; do
